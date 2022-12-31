@@ -110,6 +110,7 @@ header {
   box-shadow: 0px 3px 5px 3px #C5C5C5;
 }
 .explorer button:hover {
+  cursor: pointer;
   opacity: 0.8;
   transition-duration: 0.25s;
   box-shadow: 0.25rem 0.25rem 10px rgb(46, 45, 45);
@@ -414,6 +415,7 @@ body {
 }
 .menu_item:hover .confirm {
   margin-right: 0px;
+  cursor:pointer;
 }
 .menu_item:hover i {
   animation: anim 1s ease;
@@ -499,6 +501,7 @@ body {
   -webkit-background-clip: text;
   opacity: 0;
   transition: 200ms;
+  cursor:pointer;
 }
 .main_page .fa-solid:hover {
   opacity: 1;
@@ -550,6 +553,7 @@ body {
   border: none;
   box-shadow: 5px 6px 5px 0px grey;
   transition: all 200ms;
+  cursor:pointer;
 }
 
 .command button:hover {
